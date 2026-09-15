@@ -1,0 +1,14 @@
+.git
+.gitignore
+*.md
+backend/.env
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/vendor
+backend/node_modules
+frontend/node_modules
+frontend/dist
+docker-compose.yml
+certbot

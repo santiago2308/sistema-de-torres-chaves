@@ -1,0 +1,36 @@
+# Secretos / config local
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.*
+!.env.example
+
+# Backend
+backend/vendor/
+backend/node_modules/
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/database/*.sqlite*
+backend/coverage/
+backend/.phpunit.result.cache
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Docker
+certbot/
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
